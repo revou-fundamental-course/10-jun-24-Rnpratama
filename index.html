@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi Suhu</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="converter">
+        <h2>konversi Suhu</h2>
+        <label for="fromUnit">Dari:</label>
+        <select id="fromUnit">
+            <option value="C">Celcious</option>
+            <option value="F">Fahrenheit</option>
+        </select>
+        <label for="toUnit">Ke:</label>
+        <select id="toUnit">
+            <option value="C">Celcious</option>
+            <option value="F">Fahrenheit</option>
+        </select>
+        <label for="temperature">Suhu</label>
+        <input type="number" id="temperature" placeholder="Masukkan Suhu">
+        <button onclick="convert()">Konversi</button>
+
+        <label for="result">Hasil:</label>
+        <input type="text" id="result" readonly> <br>
+        
+    
+    </section>
+
+
+      
+    <script src="js/index.js"> </script>
+</body>
+
+</html>
